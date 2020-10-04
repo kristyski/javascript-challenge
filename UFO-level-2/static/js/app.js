@@ -25,6 +25,9 @@ tableData.forEach(function(sighting) {
 
   });
 
+  // Prevent the page from refreshing
+// d3.event.preventDefault();
+
 // activity 14/03/01 and 04 for event listner; select the button
 var button = d3.select("#filter-btn");
 button.on("click", function() {
